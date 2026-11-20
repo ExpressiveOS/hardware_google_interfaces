@@ -479,4 +479,6 @@ interface IDisplay {
     boolean isLuxStreamRequested();
 
     void setDeviceOperatingConditions(in DeviceOperatingConditions conditions);
+
+    void setMinRefreshRate(in int rate);
 }

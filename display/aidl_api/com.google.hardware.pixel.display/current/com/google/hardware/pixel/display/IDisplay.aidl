@@ -85,4 +85,5 @@ interface IDisplay {
   void setScreenContextLoggingEnabled(in boolean enabled);
   boolean isLuxStreamRequested();
   void setDeviceOperatingConditions(in com.google.hardware.pixel.display.DeviceOperatingConditions conditions);
+  void setMinRefreshRate(in int rate);
 }
